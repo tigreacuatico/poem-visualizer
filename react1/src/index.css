@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Baunk";
+    src: local("Baunk"), url("./assets/fonts/Baunk.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Subjectivity-Medium";
+    src: local("Subjectivity-Medium"),  url("./assets/fonts/Subjectivity-Medium.otf") format("truetype")
+}

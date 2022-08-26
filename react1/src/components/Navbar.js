@@ -1,3 +1,5 @@
+import "./style.css"
+
 const Navbar = () => (
     <header className='navbar'>
         <button className='navbar-item'>index</button>
