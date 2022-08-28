@@ -6,32 +6,58 @@
     text-align: center;
 
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206,89,55,0);
-color: #F50202;
-background: white;
-
-margin: 0;
-}
-
-.author-name {
-    font-family: "Subjectivity-Medium";
-    font-size: 300%;
-    color:#f28efd;
-    text-align: center;
-    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgb(255, 213, 106), 0 -10px 20px #ff8002, 0 -18px 40px rgb(255, 0, 0);
+    color: #F50202;
     background: white;
     margin: 0;
 }
 
 /* navbar*/
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+    gap: 10px;
+}
+
+.navbar-img {
+    max-width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .navbar-item {
     font-family: "Subjectivity-Medium";
-    font-size: 200%;
+    font-size: 150%;
     padding: 4;
     color: rgb(117, 209, 238);
 }
 
+/*sendmeapoem*/
+.smap-title {
+    font-family: "Baunk";
+    font-size: 150%;
+    padding: 4;
+    color: rgb(225, 43, 71);
+}
+
 /*footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
 .footer-text {
     font-family: "Subjectivity-Medium";
+    font-size: 120%;
+    color:#f28efd;
+    text-align: center;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgb(255, 213, 106), 0 -10px 20px #ff8002, 0 -18px 40px rgb(255, 0, 0);
+    background: white;
+    margin: 0;
 }
 

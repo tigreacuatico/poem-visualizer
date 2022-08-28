@@ -1,6 +1,6 @@
 const Footer = () => (
     <div className='footer'>
-        <p className='footer-text'>by gemma bachs</p>
+        <p className='footer-text'>by Gemma Bachs</p>
     </div>
   )
   
