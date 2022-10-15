@@ -1,5 +1,5 @@
 import "./style.css"
-import img from "./GEMELA.png"
+import img from "../assets/img/GEMELA.png"
 
 const Navbar = () => (
     <div className='navbar'>

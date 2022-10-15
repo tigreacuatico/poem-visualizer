@@ -2,7 +2,7 @@ const poems = [
     {
         id: 1,
         tags: ["love", "sun"],
-        decoURL:"/assets/img/GEMELA.png",
+        decoURL:'../assets/img/GEMELA.png',
         title: "let's explore",
         text: 
         [
@@ -16,7 +16,7 @@ const poems = [
     {
         id: 2,
         tags: ["love", "friendship"],
-        decoURL:"/assets/img/GEMELA.png",
+        decoURL:'../assets/img/GEMELA.png',
         title: "let's explore2",
         text: 
         [
